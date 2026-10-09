@@ -22,7 +22,7 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-30 border-b border-slate-100 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-[100] border-b border-slate-100 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center gap-6 px-4 py-3 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
           <div className="grid h-11 w-11 place-items-center rounded-xl bg-brand text-white"><School size={22} /></div>
