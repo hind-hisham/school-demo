@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: 15 118 110;
+  --brand-dark: 12 92 86;
+  --accent: 245 158 11;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 font-sans text-slate-800 antialiased;
+}
+
+::selection {
+  background: rgb(var(--brand) / 0.2);
+}
+
+/* شريط تمرير هادئ */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
