@@ -73,7 +73,7 @@ export function Shell({ role, children }: { role: Role; children: ReactNode }) {
       {/* شريط النسخة التجريبية */}
       <div className="no-print bg-slate-900 px-4 py-2 text-center text-xs text-slate-200">
         أنت تتصفح <b className="text-amber-300">نسخة تجريبية</b> ببيانات وهمية — التعديلات لا تُحفظ.{" "}
-        <Link href="/contact" className="font-bold text-white underline underline-offset-2">
+        <Link href="https://landing-next-wheat-beta.vercel.app/#contact" className="font-bold text-white underline underline-offset-2">
           تواصل معنا للحصول على النظام
         </Link>
       </div>
